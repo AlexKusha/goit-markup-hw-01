@@ -5,9 +5,18 @@ body {
 }
 
 .main-container {
-  position: absolute;
+  position: relative;
   width: 1600px;
   background-color: #fff;
+  border: 5px solid orange;
+}
+.header-cotainer {
+  height: 80px;
+}
+.logo-head-box {
+  border: 2px solid red;
+  display: inline-block;
+  margin: 24px 0 25px 215px;
 }
 .logo-head-link {
   font-family: Raleway;
@@ -16,6 +25,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #000;
+  display: inline;
 }
 .logo-web-word {
   font-family: Raleway;
@@ -25,15 +35,26 @@ body {
   line-height: 31px;
   color: #2196f3;
 }
-nav {
+.nav-box {
+  border: 2px solid red;
+  display: inline-block;
+  margin: 32px 0 32px 93px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
 }
+.nav-links {
+  margin-left: 50px;
+}
 .blue-text-color {
   color: #2196f3;
+}
+.header-mail-box {
+  border: 2px solid red;
+  display: inline-block;
+  margin: 32px 0 32px 331px;
 }
 .header-mail {
   font-family: Roboto;
@@ -42,6 +63,11 @@ nav {
   font-size: 14px;
   line-height: 16px;
   color: #2196f3;
+}
+.header-tel-box {
+  border: 2px solid red;
+  display: inline-block;
+  margin: 32px 0 32px 50px;
 }
 .header-tel-namber {
   font-family: Roboto;
